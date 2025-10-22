@@ -1,0 +1,104 @@
+.bg-light-gray {
+  background-color: #b6b5b5;
+}
+
+.div {
+  border: 2px solid;
+}
+
+.font-prompt {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+}
+
+.font-sriracha {
+  font-family: 'Sriracha', cursive;
+  font-weight: 400;
+}
+
+body {
+  background-color: black;
+}
+
+.srirachaplus {
+  font-size: 40px;
+}
+
+.line-spacing {
+  line-height: 1.8;
+  /* หรือใช้ค่าอื่น เช่น 150%, 2em, ขึ้นอยู่กับความต้องการ */
+}
+
+.bg-yellow {
+  background-color: #fbdf90;
+}
+
+.promptplus {
+  font-size: 20px;
+}
+
+.carousel-img {
+  width: 80%;
+  /* ปรับความกว้างของภาพให้แคบลงจาก 100% */
+  height: 500px;
+  /* ปรับความสูงตามต้องการ */
+  object-fit: cover;
+  /* ตัดภาพให้พอดีโดยไม่เสียสัดส่วน */
+  margin: 0 auto;
+  /* จัดภาพให้อยู่ตรงกลาง */
+  display: block;
+
+}
+
+.navbar-custom {
+  background-color: #fbdf90;
+}
+
+.section-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* ขอบมน */
+.rounded {
+  border-radius: 10px;
+}
+
+.glow-box-gold {
+  box-shadow:
+    0 0 10px #ffd9009a,
+    0 0 20px #ffcc00b1,
+    0 0 30px #ffcc00;
+  border-radius: 2px;
+  /* ถ้าต้องการขอบมนด้วย */
+}
+
+/* ปุ่มตะเกียง */
+.lamp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  animation: glow 1.5s infinite alternate;
+}
+
+.lamp-button img {
+  width: 60px;
+  height: auto;
+  filter: drop-shadow(0 0 10px gold);
+}
+
+/* เรืองแสง */
+@keyframes glow {
+  from {
+    filter: drop-shadow(0 0 5px gold);
+  }
+
+  to {
+    filter: drop-shadow(0 0 20px orange);
+  }
+}
